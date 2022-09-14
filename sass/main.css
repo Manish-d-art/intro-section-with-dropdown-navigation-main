@@ -15,4 +15,27 @@ body {
   justify-content: space-between;
   padding: 1rem;
   justify-content: baseline;
+}
+.header .nav-list {
+  background-color: cyan;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 150px;
+}
+.header .nav-list ul {
+  list-style-type: none;
+}
+.header .nav-list ul li {
+  display: flex;
+  margin: 1rem;
+}
+.header .nav-list ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.header .nav-list ul li .arrow-icon {
+  margin-left: 1rem;
 }/*# sourceMappingURL=main.css.map */
