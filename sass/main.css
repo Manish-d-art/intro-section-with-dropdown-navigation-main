@@ -64,4 +64,7 @@ body {
 .header .nav-list .nav-footer .btn {
   all: unset;
   margin-top: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
