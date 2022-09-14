@@ -22,10 +22,10 @@ body {
 .header .nav-list {
   background-color: cyan;
   position: absolute;
-  width: 100%;
+  width: min(60%, 500px);
   height: 100vh;
   top: 0;
-  left: 150px;
+  right: 0;
   padding: 1rem;
 }
 .header .nav-list .close-icon-cont {
@@ -50,4 +50,18 @@ body {
 }
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
+}
+.header .nav-list .nav-footer {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header .nav-list .nav-footer a {
+  text-decoration: none;
+}
+.header .nav-list .nav-footer .btn {
+  all: unset;
+  margin-top: 1rem;
 }/*# sourceMappingURL=main.css.map */
