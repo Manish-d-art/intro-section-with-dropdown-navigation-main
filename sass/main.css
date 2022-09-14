@@ -10,6 +10,9 @@ body {
   font-size: 18px;
 }
 
+.header {
+  position: relative;
+}
 .header .nav__block-1 {
   display: flex;
   justify-content: space-between;
@@ -23,13 +26,22 @@ body {
   height: 100vh;
   top: 0;
   left: 150px;
+  padding: 1rem;
+}
+.header .nav-list .close-icon-cont {
+  display: flex;
+  justify-content: end;
+}
+.header .nav-list .close-icon-cont .close-menu-icon {
+  margin-bottom: 1rem;
+  position: relative;
 }
 .header .nav-list ul {
   list-style-type: none;
 }
 .header .nav-list ul li {
   display: flex;
-  margin: 1rem;
+  margin-top: 1rem;
 }
 .header .nav-list ul li a {
   text-decoration: none;

@@ -12,6 +12,7 @@ body{
 }
 
 .header{
+    position: relative;
 
     .nav__block-1{
         display: flex;
@@ -26,12 +27,24 @@ body{
         height: 100vh;
         top:0;
         left:150px;
+        padding: 1rem;
+
+        .close-icon-cont{
+            display: flex;
+            justify-content: end;
+            .close-menu-icon{
+                margin-bottom: 1rem;
+                position: relative;
+            }
+         }
+
 
         ul{
+
             list-style-type: none;
             li{
                 display: flex;
-                margin: 1rem;
+                margin-top: 1rem;
                 a{
                     text-decoration: none;
                     display: flex;
