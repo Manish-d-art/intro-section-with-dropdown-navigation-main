@@ -16,14 +16,16 @@ button {
 
 .header {
   position: relative;
+  height: 100vh;
 }
 .header .nav__block-1 {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: clamp(1rem, 5vw, 2rem);
   justify-content: baseline;
 }
 .header .nav-list {
+  transform: translateX(107%);
   background-color: cyan;
   position: absolute;
   width: min(60%, 500px);
@@ -67,8 +69,10 @@ button {
 }
 .header .nav-list .nav-footer .registerBtn {
   all: unset;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   padding: 1rem;
   border: 2px solid black;
-  width: 90%;
+  width: 85%;
+  border-radius: 15px;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
