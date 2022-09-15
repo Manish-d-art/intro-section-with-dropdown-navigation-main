@@ -62,6 +62,7 @@ button{
                     text-decoration: none;
                     display: flex;
                     align-items: center;
+                    color: $MediumGray;
                 }
 
                 .arrow-icon{
@@ -72,6 +73,7 @@ button{
         .nav-footer{
             a{
                 text-decoration: none;
+                color: $MediumGray;
             }
             margin-top: 2.5rem;
             display: flex;
@@ -83,10 +85,11 @@ button{
                 all: unset;
                 margin-top: 1.5rem;
                 padding:1rem;
-                border: 2px solid black;
+                border: 2px solid $MediumGray;
                 width: 85%;
                 border-radius: 15px;
                 text-align: center;
+                color: $MediumGray;
             }
         }
     }

@@ -53,6 +53,7 @@ button {
   text-decoration: none;
   display: flex;
   align-items: center;
+  color: hsl(0deg, 0%, 41%);
 }
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
@@ -66,13 +67,15 @@ button {
 }
 .header .nav-list .nav-footer a {
   text-decoration: none;
+  color: hsl(0deg, 0%, 41%);
 }
 .header .nav-list .nav-footer .registerBtn {
   all: unset;
   margin-top: 1.5rem;
   padding: 1rem;
-  border: 2px solid black;
+  border: 2px solid hsl(0deg, 0%, 41%);
   width: 85%;
   border-radius: 15px;
   text-align: center;
+  color: hsl(0deg, 0%, 41%);
 }/*# sourceMappingURL=main.css.map */
