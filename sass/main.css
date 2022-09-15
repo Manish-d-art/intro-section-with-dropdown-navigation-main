@@ -30,14 +30,14 @@ button {
   height: 100vh;
   top: 0;
   right: 0;
-  padding: 1rem;
+  padding: clamp(1rem, 5vw, 3rem);
 }
 .header .nav-list .close-icon-cont {
   display: flex;
   justify-content: end;
 }
 .header .nav-list .close-icon-cont .close-menu-icon {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   position: relative;
 }
 .header .nav-list ul {
@@ -45,7 +45,7 @@ button {
 }
 .header .nav-list ul li {
   display: flex;
-  margin-top: 1rem;
+  margin-top: clamp(1.5rem, 5vw, 2.5rem);
 }
 .header .nav-list ul li a {
   text-decoration: none;
@@ -65,10 +65,10 @@ button {
 .header .nav-list .nav-footer a {
   text-decoration: none;
 }
-.header .nav-list .nav-footer .btn {
+.header .nav-list .nav-footer .registerBtn {
   all: unset;
   margin-top: 1rem;
   padding: 1rem;
   border: 2px solid black;
-  width: 100%;
+  width: 90%;
 }/*# sourceMappingURL=main.css.map */
