@@ -46,7 +46,6 @@ button {
   list-style-type: none;
 }
 .header .nav-list ul li {
-  display: flex;
   margin-top: clamp(1.5rem, 5vw, 2.5rem);
 }
 .header .nav-list ul li a {
@@ -57,6 +56,10 @@ button {
 }
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
+}
+.header .nav-list ul li .dropdown-1 {
+  position: relative;
+  left: 50px;
 }
 .header .nav-list .nav-footer {
   margin-top: 2.5rem;
