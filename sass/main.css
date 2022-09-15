@@ -10,6 +10,10 @@ body {
   font-size: 18px;
 }
 
+button {
+  all: unset;
+}
+
 .header {
   position: relative;
 }

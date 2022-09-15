@@ -11,6 +11,10 @@ body{
     font-size: 18px;
 }
 
+button{
+    all: unset;
+}
+
 .header{
     position: relative;
 
@@ -21,7 +25,7 @@ body{
         justify-content: baseline;
     }
     .nav-list{
-
+        // transform: translateX(100%);
         background-color: cyan;
         position: absolute;
         width: min(60%,500px);
