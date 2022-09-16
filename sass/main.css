@@ -115,8 +115,21 @@ button {
   position: absolute;
   top: 11%;
 }
-.main .main__picture .hero-image {
+.main .main__picture .hero-image-mob {
   width: 100vw;
+}
+@media (min-width: 992px) {
+  .main .main__picture .hero-image-mob {
+    display: none;
+  }
+}
+.main .main__picture .hero-image-desktop {
+  display: none;
+}
+@media (min-width: 992px) {
+  .main .main__picture .hero-image-desktop {
+    display: block !important;
+  }
 }
 .main .main__section {
   display: flex;
@@ -147,17 +160,17 @@ button {
   border-radius: 15px;
 }
 .main .main__section .main__logo-block {
-  margin: clamp(2rem, 20vw, 5rem) 0;
+  margin: clamp(2rem, 17vw, 5rem) 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 .main .main__section .main__logo-block .main__logo {
-  width: 70px;
-  height: 15px;
+  width: clamp(70px, 18vw, 130px);
+  height: clamp(15px, 4vw, 40px);
 }
 .main .main__section .main__logo-block .main__logo-2 {
-  width: 50px;
-  height: 30px;
+  width: clamp(70px, 18vw, 130px);
+  height: clamp(15px, 7vw, 58px);
 }/*# sourceMappingURL=main.css.map */

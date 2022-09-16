@@ -140,10 +140,17 @@ button{
 
     .main__picture{
         
-        .hero-image{
-            // width:min(100%,950px);
-            // object-fit: cover;
+        .hero-image-mob{
             width: 100vw;
+            @media (min-width:992px) {
+                display: none;
+            }
+         }
+         .hero-image-desktop{
+            display: none;
+            @media (min-width:992px) {
+                display: block !important;
+            }
          }
     }
 
@@ -176,18 +183,18 @@ button{
             border-radius: 15px;
         }
         .main__logo-block{
-            margin: clamp(2rem,20vw,5rem) 0;
+            margin: clamp(2rem,17vw,5rem) 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
             width:100%;
             .main__logo{
-                width:70px;
-                height:15px;
+                width: clamp(70px,18vw,130px);
+                height: clamp(15px,4vw,40px);
             }
             .main__logo-2{
-                width:50px;
-                height:30px;
+                width: clamp(70px,18vw,130px);
+                height: clamp(15px,7vw,58px);
             }
         }
 
