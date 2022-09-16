@@ -27,6 +27,7 @@ button {
 }
 .header .nav-list {
   transform: translateX(107%);
+  z-index: 1;
   background-color: cyan;
   position: absolute;
   width: min(60%, 500px);
@@ -114,6 +115,17 @@ button {
   position: absolute;
   top: 12%;
 }
-.main .main__block1 .hero-image {
+.main .main__picture .hero-image {
   width: 100vw;
+}
+.main .main__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: clamp(1rem, 5vw, 3rem);
+  padding-right: clamp(1rem, 5vw, 3rem);
+  padding-top: clamp(2rem, 10vw, 4rem);
+}
+.main .main__section .main__heading {
+  font-size: 2.2rem;
 }/*# sourceMappingURL=main.css.map */

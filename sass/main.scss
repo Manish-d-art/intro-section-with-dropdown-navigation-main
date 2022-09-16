@@ -34,7 +34,7 @@ button{
     .nav-list{
 
         transform: translateX(107%);
-
+        z-index: 1;
         background-color: cyan;
         position: absolute;
         width: min(60%,500px);
@@ -136,14 +136,28 @@ button{
 .main{
     position: absolute;
     top:12%;
+       
 
-    .main__block1{
+    .main__picture{
         
         .hero-image{
             // width:min(100%,950px);
             // object-fit: cover;
             width: 100vw;
          }
+    }
+
+    .main__section{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding-left:clamp(1rem,5vw,3rem);
+        padding-right:clamp(1rem,5vw,3rem);
+        padding-top:clamp(2rem,10vw,4rem);
+
+        .main__heading{
+            font-size: 2.2rem;
+        }
     }
 }
  
