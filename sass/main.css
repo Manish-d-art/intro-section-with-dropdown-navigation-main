@@ -127,7 +127,7 @@ button {
   padding-top: clamp(2rem, 10vw, 4rem);
 }
 .main .main__section .main__heading {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   margin-bottom: clamp(1rem, 5vw, 2rem);
 }
 .main .main__section .main__text {
@@ -135,6 +135,8 @@ button {
   text-align: center;
   color: hsl(0deg, 0%, 41%);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .main .main__section .section-btn {
   text-decoration: none;
@@ -143,4 +145,19 @@ button {
   font-weight: 700;
   padding: 1rem 2rem;
   border-radius: 15px;
+}
+.main .main__section .main__logo-block {
+  margin: clamp(2rem, 20vw, 5rem) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.main .main__section .main__logo-block .main__logo {
+  width: 70px;
+  height: 15px;
+}
+.main .main__section .main__logo-block .main__logo-2 {
+  width: 50px;
+  height: 30px;
 }/*# sourceMappingURL=main.css.map */
