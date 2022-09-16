@@ -23,6 +23,7 @@ button{
 .header{
     position: relative;
     height: 100vh;
+    overflow: hidden;
 
     .nav__block-1{
         display: flex;
@@ -130,5 +131,19 @@ button{
     }
    
 
+}
+
+.main{
+    position: absolute;
+    top:12%;
+
+    .main__block1{
+        
+        .hero-image{
+            // width:min(100%,950px);
+            // object-fit: cover;
+            width: 100vw;
+         }
+    }
 }
  
