@@ -136,6 +136,9 @@ button{
 .main{
     position: absolute;
     top:11%;
+    @media (min-width:992px) {
+        display: flex;
+    }
        
 
     .main__picture{

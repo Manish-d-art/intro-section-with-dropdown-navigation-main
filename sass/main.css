@@ -115,6 +115,11 @@ button {
   position: absolute;
   top: 11%;
 }
+@media (min-width: 992px) {
+  .main {
+    display: flex;
+  }
+}
 .main .main__picture .hero-image-mob {
   width: 100vw;
 }
