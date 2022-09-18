@@ -138,6 +138,7 @@ button{
     top:11%;
     @media (min-width:992px) {
         display: flex;
+        flex-direction: row-reverse;
     }
        
 
@@ -153,6 +154,8 @@ button{
             display: none;
             @media (min-width:992px) {
                 display: block !important;
+                width:100%;
+                // height: 90vh;
             }
          }
     }
@@ -164,10 +167,18 @@ button{
         padding-left:clamp(.7rem,5vw,3rem);
         padding-right:clamp(.7rem,5vw,3rem);
         padding-top:clamp(2rem,10vw,4rem);
+        @media (min-width:992px) {
+            align-items: flex-start;            
+        }
 
         .main__heading{
             font-size: 2.2rem;
             margin-bottom: clamp(1rem,5vw,2rem);
+
+            @media (min-width:992px) {
+                // text-align: start !important;
+                
+            }
         }
         .main__text{
             margin-bottom: clamp(3rem,8vw,4rem);
@@ -176,6 +187,10 @@ button{
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
+            @media (min-width:992px) {
+                text-align: start !important;
+            }
+            
         }
         .section-btn{
             text-decoration: none;
@@ -192,12 +207,12 @@ button{
             align-items: center;
             width:100%;
             .main__logo{
-                width: clamp(70px,18vw,130px);
-                height: clamp(15px,4vw,40px);
+                width: clamp(70px, 18vw, 90px);
+                height: clamp(15px, 4vw, 25px);
             }
             .main__logo-2{
-                width: clamp(70px,18vw,130px);
-                height: clamp(15px,7vw,58px);
+                width: clamp(70px, 18vw, 90px);
+                height: clamp(35px, 4vw, 25px);
             }
         }
 
