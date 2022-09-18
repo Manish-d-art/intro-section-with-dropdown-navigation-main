@@ -139,10 +139,15 @@ button{
     @media (min-width:992px) {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-evenly;
     }
        
 
     .main__picture{
+        @media (min-width:992px) {
+            flex-basis:40%;
+            
+        }
         
         .hero-image-mob{
             width: 100vw;
@@ -168,15 +173,17 @@ button{
         padding-right:clamp(.7rem,5vw,3rem);
         padding-top:clamp(2rem,10vw,4rem);
         @media (min-width:992px) {
-            align-items: flex-start;            
+            align-items: flex-start; 
+            flex-basis:40%;           
         }
 
         .main__heading{
             font-size: 2.2rem;
             margin-bottom: clamp(1rem,5vw,2rem);
+            text-align: center;
 
             @media (min-width:992px) {
-                // text-align: start !important;
+                text-align: start !important;
                 
             }
         }
@@ -207,12 +214,12 @@ button{
             align-items: center;
             width:100%;
             .main__logo{
-                width: clamp(70px, 18vw, 90px);
-                height: clamp(15px, 4vw, 25px);
+                width: clamp(58px, 18vw, 70px);
+                height: clamp(15px, 4vw, 20px);
             }
             .main__logo-2{
-                width: clamp(70px, 18vw, 90px);
-                height: clamp(35px, 4vw, 25px);
+                width: clamp(54px, 18vw, 65px);
+                height: clamp(24px, 4vw, 25px);
             }
         }
 
