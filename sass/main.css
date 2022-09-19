@@ -26,7 +26,6 @@ button {
   justify-content: baseline;
 }
 .header .nav-list {
-  transform: translateX(107%);
   z-index: 1;
   background-color: cyan;
   position: absolute;
@@ -53,8 +52,6 @@ button {
 }
 .header .nav-list ul li a {
   text-decoration: none;
-  display: flex;
-  align-items: center;
   color: hsl(0deg, 0%, 41%);
 }
 .header .nav-list ul li .arrow-icon {
@@ -87,21 +84,8 @@ button {
 .header .nav-list ul li .dropdown-2 li {
   color: hsl(0deg, 0%, 41%);
 }
-.header .nav-list .nav-footer {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.header .nav-list .nav-footer a {
-  text-decoration: none;
-  color: hsl(0deg, 0%, 41%);
-  font-size: 1rem;
-}
-.header .nav-list .nav-footer .registerBtn {
+.header .nav-list ul li .registerBtn {
   all: unset;
-  margin-top: 1.5rem;
   padding: 0.7rem 1rem;
   border: 2px solid hsl(0deg, 0%, 41%);
   width: 85%;
@@ -109,6 +93,10 @@ button {
   text-align: center;
   color: hsl(0deg, 0%, 41%);
   font-size: 1rem;
+}
+.header .nav-list ul .nav-login {
+  text-align: center;
+  margin-top: 2.5rem;
 }
 
 .main {

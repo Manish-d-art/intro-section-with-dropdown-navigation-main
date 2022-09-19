@@ -31,9 +31,9 @@ button{
         padding:clamp(1rem,5vw,2rem);
         justify-content: baseline;
     }
-    .nav-list{
 
-        transform: translateX(107%);
+    .nav-list{
+        // transform: translateX(107%);
         z-index: 1;
         background-color: cyan;
         position: absolute;
@@ -46,10 +46,12 @@ button{
         .close-icon-cont{
             display: flex;
             justify-content: end;
+
             .close-menu-icon{
                 margin-bottom: 1rem;
                 position: relative;
             }
+
          }
 
 
@@ -61,8 +63,8 @@ button{
                 margin-top: clamp(1rem,5vw,2.5rem);
                 a{
                     text-decoration: none;
-                    display: flex;
-                    align-items: center;
+                    // display: flex;
+                    // align-items: center;
                     color: $MediumGray;
                 }
 
@@ -101,33 +103,49 @@ button{
                             color: $MediumGray;
                         }
                 }
+                .registerBtn{
+                    all: unset;
+                    
+                    padding:.7rem 1rem;
+                    border: 2px solid $MediumGray;
+                    width: 85%;
+                    border-radius: 15px;
+                    text-align: center;
+                    color: $MediumGray;
+                    font-size: 1rem;
+                }
+                
                 
             }
-        }
-        .nav-footer{
-            a{
-                text-decoration: none;
-                color: $MediumGray;
-                font-size: 1rem;
-            }
-            margin-top: 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            .registerBtn{
-                all: unset;
-                margin-top: 1.5rem;
-                padding:.7rem 1rem;
-                border: 2px solid $MediumGray;
-                width: 85%;
-                border-radius: 15px;
+            .nav-login{
                 text-align: center;
-                color: $MediumGray;
-                font-size: 1rem;
+                margin-top: 2.5rem;
             }
         }
+        // .nav-footer{
+        //     a{
+        //         text-decoration: none;
+        //         color: $MediumGray;
+        //         font-size: 1rem;
+        //     }
+        //     margin-top: 2rem;
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     flex-direction: column;
+
+            // .registerBtn{
+            //     all: unset;
+            //     margin-top: 1.5rem;
+            //     padding:.7rem 1rem;
+            //     border: 2px solid $MediumGray;
+            //     width: 85%;
+            //     border-radius: 15px;
+            //     text-align: center;
+            //     color: $MediumGray;
+            //     font-size: 1rem;
+            // }
+        // }
     }
    
 
