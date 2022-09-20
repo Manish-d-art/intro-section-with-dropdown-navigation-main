@@ -30,6 +30,12 @@ button{
         justify-content: space-between;
         padding:clamp(1rem,5vw,2rem);
         justify-content: baseline;
+
+        .menu-icon{
+            @media (min-width:992px) {
+                display: none;                    
+            }
+        }
     }
 
     .nav-list{
@@ -43,13 +49,17 @@ button{
         right: 0;
         padding: clamp(1rem,5vw,3rem);
 
-        .close-icon-cont{
-            display: flex;
-            justify-content: end;
+            .close-icon-cont{
+                display: flex;
+                justify-content: end;
 
             .close-menu-icon{
                 margin-bottom: 1rem;
                 position: relative;
+
+                @media (min-width:992px) {
+                    display: none;                    
+                }
             }
 
          }
@@ -63,8 +73,6 @@ button{
                 margin-top: clamp(1rem,5vw,2.5rem);
                 a{
                     text-decoration: none;
-                    // display: flex;
-                    // align-items: center;
                     color: $MediumGray;
                 }
 
@@ -122,30 +130,7 @@ button{
                 margin-top: 2.5rem;
             }
         }
-        // .nav-footer{
-        //     a{
-        //         text-decoration: none;
-        //         color: $MediumGray;
-        //         font-size: 1rem;
-        //     }
-        //     margin-top: 2rem;
-        //     display: flex;
-        //     justify-content: center;
-        //     align-items: center;
-        //     flex-direction: column;
-
-            // .registerBtn{
-            //     all: unset;
-            //     margin-top: 1.5rem;
-            //     padding:.7rem 1rem;
-            //     border: 2px solid $MediumGray;
-            //     width: 85%;
-            //     border-radius: 15px;
-            //     text-align: center;
-            //     color: $MediumGray;
-            //     font-size: 1rem;
-            // }
-        // }
+       
     }
    
 

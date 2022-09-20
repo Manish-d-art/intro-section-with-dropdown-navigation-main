@@ -25,6 +25,11 @@ button {
   padding: clamp(1rem, 5vw, 2rem);
   justify-content: baseline;
 }
+@media (min-width: 992px) {
+  .header .nav__block-1 .menu-icon {
+    display: none;
+  }
+}
 .header .nav-list {
   z-index: 1;
   background-color: cyan;
@@ -42,6 +47,11 @@ button {
 .header .nav-list .close-icon-cont .close-menu-icon {
   margin-bottom: 1rem;
   position: relative;
+}
+@media (min-width: 992px) {
+  .header .nav-list .close-icon-cont .close-menu-icon {
+    display: none;
+  }
 }
 .header .nav-list ul {
   list-style-type: none;
