@@ -48,7 +48,7 @@ button {
     width: 100% !important;
     height: 10vh;
     top: 0;
-    left: 21% !important;
+    left: 15% !important;
     padding: 0 !important;
     display: flex;
     flex-direction: row;
@@ -77,6 +77,7 @@ button {
     justify-content: space-around;
     align-items: baseline;
     align-items: center;
+    width: min(56%, 740px);
   }
 }
 .header .nav-list ul li {
@@ -86,6 +87,7 @@ button {
 @media (min-width: 992px) {
   .header .nav-list ul li {
     margin-top: 0 !important;
+    text-align: center;
   }
 }
 .header .nav-list ul li a {
@@ -94,6 +96,11 @@ button {
 }
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
+}
+@media (min-width: 992px) {
+  .header .nav-list ul li .arrow-icon {
+    margin-left: 0.5rem !important;
+  }
 }
 .header .nav-list ul li .dropdown-1 {
   position: relative;
