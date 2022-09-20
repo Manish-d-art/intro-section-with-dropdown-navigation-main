@@ -49,6 +49,19 @@ button{
         right: 0;
         padding: clamp(1rem,5vw,3rem);
 
+        @media (min-width:992px) {
+            z-index: 1;
+            background-color:white; 
+            position: absolute;
+             width: 100% !important; 
+            height: 10vh; 
+            top: 0;
+            left: 21% !important;
+            padding: 0 !important; 
+            display: flex ;
+            flex-direction: row;
+        }
+
             .close-icon-cont{
                 display: flex;
                 justify-content: end;
@@ -67,10 +80,23 @@ button{
 
         ul{
 
+            @media (min-width:992px) {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-around;
+                align-items: baseline;
+                align-items: center;
+            }
+
             list-style-type: none;
             li{
                 font-size: 1rem;
                 margin-top: clamp(1rem,5vw,2.5rem);
+
+                @media (min-width:992px) {
+                    margin-top: 0 !important;
+                    
+                }
                 a{
                     text-decoration: none;
                     color: $MediumGray;

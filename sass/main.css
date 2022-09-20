@@ -40,6 +40,20 @@ button {
   right: 0;
   padding: clamp(1rem, 5vw, 3rem);
 }
+@media (min-width: 992px) {
+  .header .nav-list {
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    width: 100% !important;
+    height: 10vh;
+    top: 0;
+    left: 21% !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+  }
+}
 .header .nav-list .close-icon-cont {
   display: flex;
   justify-content: end;
@@ -56,9 +70,23 @@ button {
 .header .nav-list ul {
   list-style-type: none;
 }
+@media (min-width: 992px) {
+  .header .nav-list ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    align-items: center;
+  }
+}
 .header .nav-list ul li {
   font-size: 1rem;
   margin-top: clamp(1rem, 5vw, 2.5rem);
+}
+@media (min-width: 992px) {
+  .header .nav-list ul li {
+    margin-top: 0 !important;
+  }
 }
 .header .nav-list ul li a {
   text-decoration: none;
