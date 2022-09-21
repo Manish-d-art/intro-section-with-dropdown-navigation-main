@@ -31,6 +31,7 @@ button {
   }
 }
 .header .nav-list {
+  transform: translateX(107%);
   z-index: 1;
   background-color: cyan;
   position: absolute;
@@ -52,6 +53,7 @@ button {
     padding: 0 !important;
     display: flex;
     flex-direction: row;
+    transform: translateX(0%) !important;
   }
 }
 .header .nav-list .close-icon-cont {
@@ -139,9 +141,33 @@ button {
   color: hsl(0deg, 0%, 41%);
   font-size: 1rem;
 }
+@media (min-width: 992px) and (max-width: 1300px) {
+  .header .nav-list ul li .registerBtn {
+    position: relative;
+    left: 28vw;
+  }
+}
+@media (min-width: 1301px) {
+  .header .nav-list ul li .registerBtn {
+    position: relative;
+    left: 33vw !important;
+  }
+}
 .header .nav-list ul .nav-login {
   text-align: center;
   margin-top: 2.5rem;
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+  .header .nav-list ul .nav-login {
+    position: relative;
+    left: 28vw;
+  }
+}
+@media (min-width: 1301px) {
+  .header .nav-list ul .nav-login {
+    position: relative;
+    left: 33vw !important;
+  }
 }
 
 .main {

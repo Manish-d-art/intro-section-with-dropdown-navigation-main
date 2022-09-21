@@ -39,7 +39,7 @@ button{
     }
 
     .nav-list{
-        // transform: translateX(107%);
+        transform: translateX(107%);
         z-index: 1;
         background-color: cyan;
         position: absolute;
@@ -60,6 +60,7 @@ button{
             padding: 0 !important; 
             display: flex ;
             flex-direction: row;
+            transform: translateX(0%) !important;
         }
 
             .close-icon-cont{
@@ -143,7 +144,6 @@ button{
                 }
                 .registerBtn{
                     all: unset;
-                    
                     padding:.7rem 1rem;
                     border: 2px solid $MediumGray;
                     width: 85%;
@@ -151,6 +151,15 @@ button{
                     text-align: center;
                     color: $MediumGray;
                     font-size: 1rem;
+
+                    @media (min-width:992px) and (max-width:1300px) {
+                        position: relative;
+                        left: 28vw;
+                    }
+                    @media (min-width:1301px) {
+                        position: relative;
+                        left:33vw !important;
+                    }
                 }
                 
                 
@@ -158,6 +167,14 @@ button{
             .nav-login{
                 text-align: center;
                 margin-top: 2.5rem;
+                @media (min-width:992px) and (max-width:1300px) {
+                    position: relative;
+                    left: 28vw;
+                }
+                @media (min-width:1301px) {
+                    position: relative;
+                    left:33vw !important;
+                }
             }
         }
        
