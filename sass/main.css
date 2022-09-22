@@ -172,7 +172,7 @@ button {
 
 .main {
   position: absolute;
-  top: 11%;
+  top: 12%;
 }
 @media (min-width: 992px) {
   .main {
