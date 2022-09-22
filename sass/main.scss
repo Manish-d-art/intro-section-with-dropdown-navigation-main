@@ -14,6 +14,10 @@ body{
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
     // background-color:hsl(0, 0%, 8%,0.3) ;
+    @media (min-width:992px) {
+        margin-bottom: 1rem;
+        
+    }
 }
 
 button{
@@ -195,8 +199,10 @@ button{
 
     .main__picture{
         @media (min-width:992px) {
-            flex-basis:40%;
-            
+            flex-basis:38%;
+            display: flex;
+            justify-content: center;
+            align-items: start;
         }
         
         .hero-image-mob{
@@ -209,7 +215,7 @@ button{
             display: none;
             @media (min-width:992px) {
                 display: block !important;
-                width:100%;
+                width:80%;
                 // height: 90vh;
             }
          }
@@ -224,7 +230,8 @@ button{
         padding-top:clamp(2rem,10vw,4rem);
         @media (min-width:992px) {
             align-items: flex-start; 
-            flex-basis:40%;           
+            flex-basis:40%;  
+            justify-content: flex-end;         
         }
 
         .main__heading{
@@ -234,7 +241,7 @@ button{
 
             @media (min-width:992px) {
                 text-align: start !important;
-                
+                font-size: 3.8rem !important;
             }
         }
         .main__text{
@@ -258,7 +265,7 @@ button{
             border-radius: 15px;
         }
         .main__logo-block{
-            margin: clamp(2rem,17vw,5rem) 0;
+            margin: clamp(2rem,17vw,7rem) 0 0 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
