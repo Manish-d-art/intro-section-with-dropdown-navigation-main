@@ -202,7 +202,7 @@ button{
             flex-basis:38%;
             display: flex;
             justify-content: center;
-            align-items: start;
+            align-items: center;
         }
         
         .hero-image-mob{
@@ -215,7 +215,7 @@ button{
             display: none;
             @media (min-width:992px) {
                 display: block !important;
-                width:85%;
+                width:80%;
                 
             }
          }

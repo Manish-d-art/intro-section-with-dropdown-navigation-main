@@ -191,7 +191,7 @@ button {
     flex-basis: 38%;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
   }
 }
 .main .main__picture .hero-image-mob {
@@ -208,7 +208,7 @@ button {
 @media (min-width: 992px) {
   .main .main__picture .hero-image-desktop {
     display: block !important;
-    width: 85%;
+    width: 80%;
   }
 }
 .main .main__section {
