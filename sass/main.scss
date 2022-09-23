@@ -242,7 +242,7 @@ button{
             @media (min-width:992px) {
                 text-align: start !important;
                 // font-size: 3.8rem !important;
-                font-size: clamp(3rem,10vw,4.8rem) !important;
+                font-size: clamp(3rem,-0.9804rem + 6.42vw,4.8rem) !important;
             }
         }
         .main__text{
