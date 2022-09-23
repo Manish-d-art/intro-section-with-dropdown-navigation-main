@@ -43,9 +43,9 @@ button{
     }
 
     .nav-list{
-        transform: translateX(107%);
+        // transform: translateX(107%);
         z-index: 1;
-        background-color: cyan;
+        background-color:  $AlmostWhite;
         position: absolute;
         width: min(60%,500px);
         height: 100vh;
