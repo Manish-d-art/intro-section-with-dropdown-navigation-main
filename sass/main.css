@@ -45,6 +45,7 @@ button {
   top: 0;
   right: 0;
   padding: clamp(1rem, 5vw, 3rem);
+  transition: 0.5s;
 }
 @media (min-width: 992px) {
   .header .nav-list {

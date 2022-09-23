@@ -52,6 +52,7 @@ button{
         top:0;
         right: 0;
         padding: clamp(1rem,5vw,3rem);
+        transition: .5s;
 
         @media (min-width:992px) {
             z-index: 1;
