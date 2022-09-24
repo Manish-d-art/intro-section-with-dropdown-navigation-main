@@ -10,8 +10,8 @@ const Body=document.querySelector('body');
 navOpenBtn.addEventListener('click',function(e){
   e.preventDefault();
   navbar.style.transform=`translateX(${0}%)`;
-  mainSec.style.opacity=".4";
-  Body.style.backgroundColor="rgba(0, 0, 0,60%)";
+  mainSec.style.opacity=".8";
+  Body.style.backgroundColor="hsl(0, 0%, 8%,.54)";
 
 });
 
