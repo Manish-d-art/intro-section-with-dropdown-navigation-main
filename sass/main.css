@@ -102,6 +102,9 @@ button {
   text-decoration: none;
   color: hsl(0deg, 0%, 41%);
 }
+.header .nav-list ul li a:hover + .dropdown-1 {
+  height: 160px;
+}
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
 }
@@ -117,7 +120,7 @@ button {
   font-size: 1rem;
   overflow: hidden;
   height: 0;
-  transition: 1s;
+  transition: 0.5s;
 }
 .header .nav-list ul li .dropdown-1 li {
   color: hsl(0deg, 0%, 41%);

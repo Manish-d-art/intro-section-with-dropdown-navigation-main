@@ -107,7 +107,11 @@ button{
                 a{
                     text-decoration: none;
                     color: $MediumGray;
+                    &:hover + .dropdown-1{
+                        height:160px;
+                    }
                 }
+
 
                 .arrow-icon{
                     margin-left:1rem;
@@ -123,7 +127,7 @@ button{
                     font-size: 1rem;
                     overflow: hidden;
                     height:0;
-                    transition: 1s;
+                    transition: .5s;
 
                         li{
                             color: $MediumGray;
