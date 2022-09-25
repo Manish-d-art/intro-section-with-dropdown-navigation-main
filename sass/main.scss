@@ -141,6 +141,7 @@ button{
                         display: flex;
                         flex-direction: column;
                         top:clamp(10px,2vw,20vw);
+                        background-color: cyan;
                     }
 
                         li{
@@ -268,6 +269,8 @@ button{
             @media (min-width:992px) {
                 text-align: start !important;
                 // font-size: 3.8rem !important;
+                margin-bottom: clamp(.8rem,5vw,2rem);
+                margin-top: .4rem;
                 font-size: clamp(3rem,-0.9804rem + 6.42vw,4.8rem) !important;
             }
         }
