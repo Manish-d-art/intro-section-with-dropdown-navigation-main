@@ -91,6 +91,7 @@ button {
 .header .nav-list ul li {
   font-size: 1rem;
   margin-top: clamp(1rem, 5vw, 2.5rem);
+  margin-top: 0.9rem;
 }
 @media (min-width: 992px) {
   .header .nav-list ul li {
@@ -103,9 +104,6 @@ button {
   text-decoration: none;
   color: hsl(0deg, 0%, 41%);
 }
-.header .nav-list ul li a:hover + .dropdown-1 {
-  height: 160px;
-}
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
 }
@@ -117,8 +115,7 @@ button {
 .header .nav-list ul li .dropdown-1 {
   position: relative;
   left: 30px;
-  width: 120px;
-  font-size: 1rem;
+  width: 130px;
   overflow: hidden;
   height: 0;
   transition: 0.5s;
@@ -128,13 +125,11 @@ button {
   .header .nav-list ul li .dropdown-1 {
     position: absolute !important;
     left: -38px !important;
-    height: 139px !important;
     width: 130px !important;
     display: flex;
     flex-direction: column;
     top: clamp(20px, 3vw, 40vw);
     background-color: cyan;
-    padding: 0.8rem;
   }
 }
 .header .nav-list ul li .dropdown-1 li {
