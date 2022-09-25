@@ -96,6 +96,7 @@ button {
   .header .nav-list ul li {
     margin-top: 0 !important;
     text-align: center;
+    position: relative;
   }
 }
 .header .nav-list ul li a {
@@ -122,9 +123,22 @@ button {
   height: 0;
   transition: 0.5s;
 }
+@media (min-width: 992px) {
+  .header .nav-list ul li .dropdown-1 {
+    position: absolute !important;
+    left: -20px !important;
+    height: 100px !important;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+  }
+}
 .header .nav-list ul li .dropdown-1 li {
   color: hsl(0deg, 0%, 41%);
   font-size: 13px;
+  width: 100px;
+  display: flex;
+  justify-content: start;
 }
 .header .nav-list ul li .dropdown-1 li img {
   margin-right: 0.5rem;

@@ -66,22 +66,23 @@ button{
             display: flex ;
             flex-direction: row;
             transform: translateX(0%) !important;
+
         }
 
             .close-icon-cont{
                 display: flex;
                 justify-content: end;
 
-            .close-menu-icon{
-                margin-bottom: 1rem;
-                position: relative;
+                .close-menu-icon{
+                    margin-bottom: 1rem;
+                    position: relative;
 
-                @media (min-width:992px) {
-                    display: none;                    
+                    @media (min-width:992px) {
+                        display: none;                    
+                    }
                 }
-            }
 
-         }
+           }
 
 
         ul{
@@ -96,6 +97,9 @@ button{
             }
 
             list-style-type: none;
+
+            
+
             li{
                 font-size: 1rem;
                 margin-top: clamp(1rem,5vw,2.5rem);
@@ -103,6 +107,7 @@ button{
                 @media (min-width:992px) {
                     margin-top: 0 !important;
                     text-align: center;
+                    position: relative;
                 }
                 a{
                     text-decoration: none;
@@ -129,9 +134,21 @@ button{
                     height:0;
                     transition: .5s;
 
+                    @media (min-width:992px) {
+                        position: absolute !important;
+                        left: -20px !important;
+                        height: 100px !important;
+                        display: flex;
+                        flex-direction: column;
+                        top:20px;
+                    }
+
                         li{
                             color: $MediumGray;
                             font-size: 13px;
+                            width:100px;
+                            display: flex;
+                            justify-content: start;
                             img{
                                 margin-right: .5rem;
                             }   
