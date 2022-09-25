@@ -42,5 +42,11 @@ dropdownBtn1.addEventListener('mouseout',function(e){
   dropdown1.style.padding="0rem";
 });
 
+dropdownBtn1.addEventListener('click',function(e){
+  e.preventDefault();
+  dropdown1.classList.toggle('dropStyle1');
+  // dropdown1.style.padding="0rem";
+});
+
 
 
