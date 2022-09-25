@@ -122,11 +122,12 @@ button {
   overflow: hidden;
   height: 0;
   transition: 0.5s;
+  border-radius: 5px;
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1100px) {
   .header .nav-list ul li .dropdown-1 {
     position: absolute !important;
-    left: -20px !important;
+    left: -33px !important;
     height: 100px !important;
     display: flex;
     flex-direction: column;
@@ -134,10 +135,23 @@ button {
     background-color: cyan;
   }
 }
+@media (min-width: 1101px) {
+  .header .nav-list ul li .dropdown-1 {
+    position: absolute !important;
+    left: -38px !important;
+    height: 125px !important;
+    width: 130px !important;
+    display: flex;
+    flex-direction: column;
+    top: clamp(10px, 2vw, 20vw);
+    background-color: cyan;
+    padding: 0.5rem;
+  }
+}
 .header .nav-list ul li .dropdown-1 li {
   color: hsl(0deg, 0%, 41%);
   font-size: 13px;
-  width: 120px;
+  width: 96px;
   display: flex;
   justify-content: start;
   align-items: center;

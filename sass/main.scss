@@ -133,10 +133,11 @@ button{
                     overflow: hidden;
                     height:0;
                     transition: .5s;
+                    border-radius: 5px;
 
-                    @media (min-width:992px) {
+                    @media (min-width:992px) and (max-width:1100px) {
                         position: absolute !important;
-                        left: -20px !important;
+                        left: -33px !important;
                         height: 100px !important;
                         display: flex;
                         flex-direction: column;
@@ -144,10 +145,22 @@ button{
                         background-color: cyan;
                     }
 
+                    @media (min-width:1101px) {
+                        position: absolute !important;
+                        left: -38px !important;
+                        height: 125px !important;
+                        width: 130px !important;
+                        display: flex;
+                        flex-direction: column;
+                        top:clamp(10px,2vw,20vw);
+                        background-color: cyan;
+                        padding: 0.5rem;
+                    }
+
                         li{
                             color: $MediumGray;
                             font-size: 13px;
-                            width:120px;
+                            width:96px;
                             display: flex;
                             justify-content: start;
                             align-items: center;
@@ -268,12 +281,12 @@ button{
 
             @media (min-width:992px) {
                 text-align: start !important;
-                // font-size: 3.8rem !important;
                 margin-bottom: clamp(.8rem,5vw,2rem);
                 margin-top: .4rem;
                 font-size: clamp(3rem,-0.9804rem + 6.42vw,4.8rem) !important;
             }
         }
+        
         .main__text{
             margin-bottom: clamp(3rem,8vw,4rem);
             text-align: center;
