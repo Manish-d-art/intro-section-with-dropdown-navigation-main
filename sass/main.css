@@ -124,6 +124,7 @@ button {
 }
 .header .nav-list ul li .dropdown-1 li {
   color: hsl(0deg, 0%, 41%);
+  font-size: 13px;
 }
 .header .nav-list ul li .dropdown-1 li img {
   margin-right: 0.5rem;
@@ -139,6 +140,7 @@ button {
 }
 .header .nav-list ul li .dropdown-2 li {
   color: hsl(0deg, 0%, 41%);
+  font-size: 13px;
 }
 .header .nav-list ul li .registerBtn {
   all: unset;
@@ -188,6 +190,7 @@ button {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+    top: 14% !important;
   }
 }
 @media (min-width: 992px) {

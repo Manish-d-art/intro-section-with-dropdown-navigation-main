@@ -131,6 +131,7 @@ button{
 
                         li{
                             color: $MediumGray;
+                            font-size: 13px;
                             img{
                                 margin-right: .5rem;
                             }   
@@ -149,6 +150,7 @@ button{
 
                         li{
                             color: $MediumGray;
+                            font-size: 13px;
                         }
                 }
                 .registerBtn{
@@ -199,6 +201,7 @@ button{
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
+        top:14% !important;
     }
        
 
