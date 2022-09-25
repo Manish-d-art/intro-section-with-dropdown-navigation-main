@@ -140,15 +140,16 @@ button{
                         height: 100px !important;
                         display: flex;
                         flex-direction: column;
-                        top:20px;
+                        top:clamp(10px,2vw,20vw);
                     }
 
                         li{
                             color: $MediumGray;
                             font-size: 13px;
-                            width:100px;
+                            width:120px;
                             display: flex;
                             justify-content: start;
+                            align-items: center;
                             img{
                                 margin-right: .5rem;
                             }   
@@ -256,7 +257,7 @@ button{
         @media (min-width:992px) {
             align-items: flex-start; 
             flex-basis:42%;  
-            justify-content: flex-end;         
+            justify-content: center;         
         }
 
         .main__heading{
