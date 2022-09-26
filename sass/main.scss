@@ -28,6 +28,15 @@
     }
 }
 
+//arrow-1
+.arrow-1{
+    transform: rotate(180deg);
+}
+//arrow-2
+.arrow-2{
+    transform: rotate(180deg);
+}
+
 
 body{
     font-family: 'Epilogue', sans-serif;
@@ -136,6 +145,7 @@ button{
 
                 .arrow-icon{
                     margin-left:1rem;
+                    transition: .5s;
                     @media (min-width:992px) {
                         margin-left:.5rem !important;
                     }
@@ -156,7 +166,8 @@ button{
                         width: 130px !important;
                         display: flex;
                         flex-direction: column;
-                        top:clamp(20px,3vw,40vw);
+                        // top:clamp(20px,3vw,40vw);
+                        top:43px;
                         background-color: cyan;
                     }
 
@@ -191,8 +202,7 @@ button{
                         position: absolute !important;
                         left:0px;
                         width: 100px;
-                        top:40px;
-                        transition: 1s;
+                        top:43px;
                         display: flex;
                         flex-direction: column;
                         text-align: start;
