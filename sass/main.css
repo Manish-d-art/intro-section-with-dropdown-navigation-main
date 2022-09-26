@@ -14,6 +14,11 @@
   }
 }
 
+.dropStyle2 {
+  height: 100px !important;
+  padding: 0.8rem;
+}
+
 body {
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
@@ -161,22 +166,19 @@ button {
   height: 0;
   transition: 1s;
   border-radius: 7px;
+  overflow: hidden;
 }
 @media (min-width: 992px) {
   .header .nav-list ul li .dropdown-2 {
     position: absolute !important;
     left: 0px;
     width: 100px;
-    top: 43px;
-    font-size: 1rem;
-    overflow: hidden;
-    height: 100px !important;
+    top: 40px;
     transition: 1s;
     display: flex;
     flex-direction: column;
     text-align: start;
     background-color: cyan;
-    padding: 0.8rem;
   }
 }
 .header .nav-list ul li .dropdown-2 li {
