@@ -22,7 +22,6 @@
 body{
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
-    // background-color:rgba(0, 0, 0,60%);
     @media (min-width:992px) {
         margin-bottom: 1rem;
         
@@ -122,20 +121,6 @@ button{
                 a{
                     text-decoration: none;
                     color: $MediumGray;
-
-                    // &:hover + .dropdown-1{
-                    //     // height:160px;
-                    //     position: absolute !important;
-                    //     left: -38px !important;
-                    //     height: 139px !important;
-                    //     // overflow: hidden;
-                    //     width: 130px !important;
-                    //     display: flex;
-                    //     flex-direction: column;
-                    //     top:clamp(20px,3vw,40vw);
-                    //     background-color: cyan;
-                    //     padding: 0.8rem;
-                    // }
                 }
 
 
@@ -150,25 +135,19 @@ button{
                     position: relative;
                     left: 30px;
                     width: 130px;
-                    // font-size: 1rem;
                     overflow: hidden;
                     height:0;
                     transition: .5s;
                     border-radius: 7px;
-                    // padding: 0.8;
-                    // line-height: 1;
 
                     @media (min-width:992px) {
                         position: absolute !important;
                         left: -38px !important;
-                                // height: 139px !important;
-                                // overflow: hidden;
                         width: 130px !important;
                         display: flex;
                         flex-direction: column;
                         top:clamp(20px,3vw,40vw);
                         background-color: cyan;
-                                  // padding: 0.8rem;
                     }
 
                    
