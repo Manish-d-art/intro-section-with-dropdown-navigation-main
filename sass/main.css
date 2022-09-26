@@ -157,7 +157,8 @@ button {
     display: flex;
     flex-direction: column;
     top: 43px;
-    background-color: cyan;
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   }
 }
 .header .nav-list ul li .dropdown-1 li {
@@ -186,12 +187,12 @@ button {
   .header .nav-list ul li .dropdown-2 {
     position: absolute !important;
     left: 0px;
-    width: 100px;
     top: 43px;
     display: flex;
     flex-direction: column;
     text-align: start;
-    background-color: cyan;
+    background-color: white;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   }
 }
 .header .nav-list ul li .dropdown-2 li {

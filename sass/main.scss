@@ -166,9 +166,11 @@ button{
                         width: 130px !important;
                         display: flex;
                         flex-direction: column;
-                        // top:clamp(20px,3vw,40vw);
                         top:43px;
-                        background-color: cyan;
+                        background-color: white;
+                        box-shadow: 0 2px 15px rgb(0 0 0 / 10%);    
+
+
                     }
 
                    
@@ -201,12 +203,13 @@ button{
                     @media (min-width:992px) {
                         position: absolute !important;
                         left:0px;
-                        width: 100px;
+                        // width: 100px;
                         top:43px;
                         display: flex;
                         flex-direction: column;
                         text-align: start;
-                        background-color: cyan;
+                        background-color: white;
+                        box-shadow: 0 2px 15px rgb(0 0 0 / 10%);    
                     }
 
                         li{
