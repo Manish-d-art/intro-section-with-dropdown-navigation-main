@@ -34,6 +34,7 @@
 body {
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
+  background-color: hsl(0deg, 0%, 98%);
 }
 @media (min-width: 992px) {
   body {
@@ -64,7 +65,7 @@ button {
 .header .nav-list {
   transform: translateX(107%);
   z-index: 1;
-  background-color: hsl(0deg, 0%, 98%);
+  background-color: white;
   position: absolute;
   width: min(60%, 500px);
   height: 100vh;
@@ -76,7 +77,7 @@ button {
 @media (min-width: 992px) {
   .header .nav-list {
     z-index: 1;
-    background-color: white;
+    background-color: hsl(0deg, 0%, 98%);
     position: absolute;
     width: 100% !important;
     height: 10vh;
