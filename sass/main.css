@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+.dropStyle1 {
+  height: 139px !important;
+  padding: 0.8rem;
+}
+
 body {
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
@@ -131,9 +136,6 @@ button {
     top: clamp(20px, 3vw, 40vw);
     background-color: cyan;
   }
-}
-.header .nav-list ul li .dropdown-1 .dropStyle1 {
-  height: 139px;
 }
 .header .nav-list ul li .dropdown-1 li {
   color: hsl(0deg, 0%, 41%);
