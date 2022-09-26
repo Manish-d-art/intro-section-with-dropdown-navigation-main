@@ -7,9 +7,10 @@ const closeNavBtn=document.querySelector('.closeBtn');
 const mainSec=document.querySelector('.main');
 const Body=document.querySelector('body');
 const dropdown1=document.querySelector('.dropdown-1');
+const dropdown2=document.querySelector('.dropdown-2');
 const dropdownBtn1=document.querySelector('.dropdownBtn-1');
 const dropdownBtn2=document.querySelector('.dropdownBtn-2');
-const dropdown2=document.querySelector('.dropdown-2');
+
 
 
 //mobile nav open 
@@ -38,7 +39,7 @@ dropdownBtn1.addEventListener('click',function(e){
 //dropdown-2
 dropdownBtn2.addEventListener('click',function(e){
   e.preventDefault();
-  
+  dropdown2.classList.toggle('dropStyle2');
 })
 
 
