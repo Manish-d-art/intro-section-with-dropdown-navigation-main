@@ -22,7 +22,10 @@
  //js css for dropdown-1 mobile
 .dropStyle2{
     height: 100px !important;
-    padding: .8rem;
+    @media (min-width:992px) {
+        padding: 0.8rem;
+        
+    }
 }
 
 
@@ -180,7 +183,7 @@ button{
                     font-size: 1rem;
                     overflow: hidden;
                     height:0;
-                    transition: 1s;
+                    transition: .5s;
                     border-radius: 7px;
                     overflow: hidden;
 
@@ -189,13 +192,11 @@ button{
                         left:0px;
                         width: 100px;
                         top:40px;
-                        // height:100px !important;
                         transition: 1s;
                         display: flex;
                         flex-direction: column;
                         text-align: start;
                         background-color: cyan;
-                        // padding: 0.8rem;
                     }
 
                         li{
