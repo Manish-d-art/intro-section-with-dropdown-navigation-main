@@ -343,6 +343,9 @@ button{
             @media (min-width:992px) {
                 text-align: start !important;
             }
+            @media (min-width:1300px) {
+                padding-right: 5rem;
+            }
             
         }
         .section-btn{
@@ -352,6 +355,13 @@ button{
             font-weight: 700;
             padding:1rem 2rem;
             border-radius: 15px;
+
+            &:hover{
+                color:$AlmostBlack;
+                background-color:  $AlmostWhite;
+                border: 1px solid $AlmostBlack;
+                font-weight: 700;
+            }
         }
         .main__logo-block{
             margin: clamp(2rem,17vw,5rem) 0 0 0;

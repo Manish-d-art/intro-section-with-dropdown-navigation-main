@@ -328,6 +328,11 @@ button {
     text-align: start !important;
   }
 }
+@media (min-width: 1300px) {
+  .main .main__section .main__text {
+    padding-right: 5rem;
+  }
+}
 .main .main__section .section-btn {
   text-decoration: none;
   color: hsl(0deg, 0%, 98%);
@@ -335,6 +340,12 @@ button {
   font-weight: 700;
   padding: 1rem 2rem;
   border-radius: 15px;
+}
+.main .main__section .section-btn:hover {
+  color: hsl(0deg, 0%, 8%);
+  background-color: hsl(0deg, 0%, 98%);
+  border: 1px solid hsl(0deg, 0%, 8%);
+  font-weight: 700;
 }
 .main .main__section .main__logo-block {
   margin: clamp(2rem, 17vw, 5rem) 0 0 0;
