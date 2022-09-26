@@ -125,7 +125,9 @@ button{
 
             list-style-type: none;
 
-            
+            li:last-child{
+                text-align: center;
+            }
 
             li{
                 font-size: 1rem;
@@ -219,15 +221,17 @@ button{
                             text-align: start;
                         }
                 }
+                
                 .registerBtn{
                     all: unset;
                     padding:.7rem 1rem;
                     border: 2px solid $MediumGray;
-                    width: 85%;
+                    width: 75%;
                     border-radius: 15px;
                     text-align: center;
                     color: $MediumGray;
                     font-size: 1rem;
+                    cursor: pointer;
 
                     @media (min-width:992px) and (max-width:1300px) {
                         position: relative;
@@ -237,6 +241,10 @@ button{
                         position: relative;
                         left:33vw !important;
                     }
+
+                    // .nav-list__register{
+                    // padding:.7rem 1rem;
+                    // }
                 }
                 
                 

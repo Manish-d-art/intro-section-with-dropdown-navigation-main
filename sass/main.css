@@ -115,6 +115,9 @@ button {
     width: min(56%, 740px);
   }
 }
+.header .nav-list ul li:last-child {
+  text-align: center;
+}
 .header .nav-list ul li {
   font-size: 1rem;
   margin-top: clamp(1rem, 5vw, 2.5rem);
@@ -205,11 +208,12 @@ button {
   all: unset;
   padding: 0.7rem 1rem;
   border: 2px solid hsl(0deg, 0%, 41%);
-  width: 85%;
+  width: 75%;
   border-radius: 15px;
   text-align: center;
   color: hsl(0deg, 0%, 41%);
   font-size: 1rem;
+  cursor: pointer;
 }
 @media (min-width: 992px) and (max-width: 1300px) {
   .header .nav-list ul li .registerBtn {
