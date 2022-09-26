@@ -10,8 +10,8 @@ const dropdown1=document.querySelector('.dropdown-1');
 const dropdown2=document.querySelector('.dropdown-2');
 const dropdownBtn1=document.querySelector('.dropdownBtn-1');
 const dropdownBtn2=document.querySelector('.dropdownBtn-2');
-const arrow1=document.querySelector('.arrow1');
-const arrow2=document.querySelector('.arrow2');
+const arrow1=document.querySelector('.arrow-1');
+const arrow2=document.querySelector('.arrow-2');
 
 
 //mobile nav open 
@@ -35,14 +35,14 @@ closeNavBtn.addEventListener('click',function(e){
 dropdownBtn1.addEventListener('click',function(e){
   e.preventDefault();
   dropdown1.classList.toggle('dropStyle1');
-  // arrow1.classList.toggle('arrow-1');
+  arrow1.classList.toggle('arrowStyle1');
 });
 
 //dropdown-2
 dropdownBtn2.addEventListener('click',function(e){
   e.preventDefault();
   dropdown2.classList.toggle('dropStyle2');
-  // arrow2.classList.toggle('arrow-2');
+  arrow2.classList.toggle('arrowStyle2');
 })
 
 
