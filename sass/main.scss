@@ -13,7 +13,10 @@
  //js css for dropdown mobile
  .dropStyle1{
     height:139px !important;
-    padding: 0.8rem;
+    @media (min-width:992px) {
+        padding: 0.8rem;
+        
+    }
 }
 
 body{
