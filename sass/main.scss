@@ -133,6 +133,7 @@ button{
                 font-size: 1rem;
                 margin-top: clamp(1rem,5vw,2.5rem);
                 margin-top: .9rem;
+               
 
                 @media (min-width:992px) {
                     margin-top: 0 !important;
@@ -142,6 +143,9 @@ button{
                 a{
                     text-decoration: none;
                     color: $MediumGray;
+                    &:hover{
+                        color: $AlmostBlack;
+                    }
                 }
 
 
@@ -232,6 +236,9 @@ button{
                     color: $MediumGray;
                     font-size: 1rem;
                     cursor: pointer;
+                    &:hover{
+                        color:$AlmostBlack;
+                    }
 
                     @media (min-width:992px) and (max-width:1300px) {
                         position: relative;
@@ -242,9 +249,6 @@ button{
                         left:33vw !important;
                     }
 
-                    // .nav-list__register{
-                    // padding:.7rem 1rem;
-                    // }
                 }
                 
                 

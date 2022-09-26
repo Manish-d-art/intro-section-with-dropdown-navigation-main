@@ -134,6 +134,9 @@ button {
   text-decoration: none;
   color: hsl(0deg, 0%, 41%);
 }
+.header .nav-list ul li a:hover {
+  color: hsl(0deg, 0%, 8%);
+}
 .header .nav-list ul li .arrow-icon {
   margin-left: 1rem;
   transition: 0.5s;
@@ -214,6 +217,9 @@ button {
   color: hsl(0deg, 0%, 41%);
   font-size: 1rem;
   cursor: pointer;
+}
+.header .nav-list ul li .registerBtn:hover {
+  color: hsl(0deg, 0%, 8%);
 }
 @media (min-width: 992px) and (max-width: 1300px) {
   .header .nav-list ul li .registerBtn {
