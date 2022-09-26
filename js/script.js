@@ -28,19 +28,19 @@ closeNavBtn.addEventListener('click',function(e){
   Body.style.backgroundColor="white";
 });
 
-//dropdown-1 open
-dropdownBtn1.addEventListener('mouseover',function(e){
-  e.preventDefault();
-  dropdown1.style.height="139px";
-  dropdown1.style.padding=".8rem";
-});
+// dropdown-1 open
+// dropdownBtn1.addEventListener('mouseover',function(e){
+//   e.preventDefault();
+//   dropdown1.style.height="139px";
+//   // dropdown1.style.padding=".8rem";
+// });
 
-//dropdown-1 open
-dropdownBtn1.addEventListener('mouseout',function(e){
-  e.preventDefault();
-  dropdown1.style.height="0px";
-  dropdown1.style.padding="0rem";
-});
+// //dropdown-1 open
+// dropdownBtn1.addEventListener('mouseout',function(e){
+//   e.preventDefault();
+//   dropdown1.style.height="0px";
+//   dropdown1.style.padding="0rem";
+// });
 
 dropdownBtn1.addEventListener('click',function(e){
   e.preventDefault();
