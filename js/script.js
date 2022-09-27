@@ -43,6 +43,8 @@ dropdownBtn2.addEventListener('click',function(e){
   e.preventDefault();
   dropdown2.classList.toggle('dropStyle2');
   arrow2.classList.toggle('arrowStyle2');
-})
+});
+
+
 
 
