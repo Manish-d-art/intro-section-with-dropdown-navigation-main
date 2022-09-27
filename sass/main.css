@@ -178,6 +178,9 @@ button {
 .header .nav-list ul li .dropdown-1 li img {
   margin-right: 0.5rem;
 }
+.header .nav-list ul li .dropdown-1 li:hover {
+  cursor: pointer;
+}
 .header .nav-list ul li .dropdown-2 {
   position: relative;
   left: 30px;
@@ -206,6 +209,9 @@ button {
   font-size: 13px;
   width: 61px;
   text-align: start;
+}
+.header .nav-list ul li .dropdown-2 li:hover {
+  cursor: pointer;
 }
 .header .nav-list ul li .registerBtn {
   all: unset;

@@ -190,7 +190,10 @@ button{
                             align-items: center;
                             img{
                                 margin-right: .5rem;
-                            }   
+                            }  
+                            &:hover{
+                                cursor: pointer;
+                            } 
                         }
                        
                 }
@@ -223,6 +226,9 @@ button{
                             font-size: 13px;
                             width: 61px;
                             text-align: start;
+                            &:hover{
+                                cursor: pointer;
+                            } 
                         }
                 }
                 
