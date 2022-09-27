@@ -10,34 +10,6 @@
  $MediumGray: hsl(0, 0%, 41%);
  $AlmostBlack: hsl(0, 0%, 8%);
 
- //js css for dropdown-1 mobile
- .dropStyle1{
-    height:139px !important;
-    @media (min-width:992px) {
-        padding: 0.8rem;
-        
-    }
-}
-
- //js css for dropdown-1 mobile
-.dropStyle2{
-    height: 100px !important;
-    @media (min-width:992px) {
-        padding: 0.8rem;
-        
-    }
-}
-
-//arrow-1
-.arrowStyle1{
-    transform: rotate(180deg);
-}
-//arrow-2
-.arrowStyle2{
-    transform: rotate(180deg);
-}
-
-
 body{
     font-family: 'Epilogue', sans-serif;
     font-size: 18px;
@@ -392,5 +364,33 @@ button{
         }
 
     }
+}
+
+
+ //js css for dropdown-1 mobile
+ .dropStyle1{
+    height:139px !important;
+    @media (min-width:992px) {
+        padding: 0.8rem;
+        
+    }
+}
+
+ //js css for dropdown-1 mobile
+.dropStyle2{
+    height: 100px !important;
+    @media (min-width:992px) {
+        padding: 0.8rem;
+        
+    }
+}
+
+//arrow-1
+.arrowStyle1{
+    transform: rotate(180deg);
+}
+//arrow-2
+.arrowStyle2{
+    transform: rotate(180deg);
 }
  

@@ -5,32 +5,6 @@
   box-sizing: border-box;
 }
 
-.dropStyle1 {
-  height: 139px !important;
-}
-@media (min-width: 992px) {
-  .dropStyle1 {
-    padding: 0.8rem;
-  }
-}
-
-.dropStyle2 {
-  height: 100px !important;
-}
-@media (min-width: 992px) {
-  .dropStyle2 {
-    padding: 0.8rem;
-  }
-}
-
-.arrowStyle1 {
-  transform: rotate(180deg);
-}
-
-.arrowStyle2 {
-  transform: rotate(180deg);
-}
-
 body {
   font-family: "Epilogue", sans-serif;
   font-size: 18px;
@@ -373,4 +347,30 @@ button {
 .main .main__section .main__logo-block .main__logo-2 {
   width: clamp(54px, 18vw, 65px);
   height: clamp(24px, 4vw, 25px);
+}
+
+.dropStyle1 {
+  height: 139px !important;
+}
+@media (min-width: 992px) {
+  .dropStyle1 {
+    padding: 0.8rem;
+  }
+}
+
+.dropStyle2 {
+  height: 100px !important;
+}
+@media (min-width: 992px) {
+  .dropStyle2 {
+    padding: 0.8rem;
+  }
+}
+
+.arrowStyle1 {
+  transform: rotate(180deg);
+}
+
+.arrowStyle2 {
+  transform: rotate(180deg);
 }/*# sourceMappingURL=main.css.map */
