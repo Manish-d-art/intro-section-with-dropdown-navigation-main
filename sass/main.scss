@@ -188,6 +188,7 @@ button{
                             display: flex;
                             justify-content: start;
                             align-items: center;
+                            border-bottom: 2px solid $AlmostWhite;
                             img{
                                 margin-right: .5rem;
                             }  
@@ -375,6 +376,11 @@ button{
             justify-content: space-between;
             align-items: center;
             width:100%;
+
+            @media (min-width:600px) and (max-width:992px) {
+                justify-content: space-around !important;
+            }
+
             .main__logo{
                 width: clamp(58px, 18vw, 70px);
                 height: clamp(15px, 4vw, 20px);
