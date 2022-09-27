@@ -151,8 +151,6 @@ button{
 
                     }
 
-                   
-
                         li{
                             color: $MediumGray;
                             font-size: 13px;
@@ -185,7 +183,6 @@ button{
                     @media (min-width:992px) {
                         position: absolute !important;
                         left:0px;
-                        // width: 100px;
                         top:43px;
                         display: flex;
                         flex-direction: column;
