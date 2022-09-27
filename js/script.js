@@ -62,5 +62,10 @@ class App{
     mainSec.style.opacity="1";
     Body.style.backgroundColor="white";
   }
+
+  _dropDonw1(){
+    dropdown1.classList.toggle('dropStyle1');
+    arrow1.classList.toggle('arrowStyle1');
+  }
 }
 
