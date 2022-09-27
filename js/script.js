@@ -49,6 +49,8 @@ dropdownBtn2.addEventListener('click',function(e){
 class App{
   constructor(){
 
+    navOpenBtn.addEventListener('click',this._mobNavOpen);
+    closeNavBtn.addEventListener('click',this._mobNavClose);
   }
 
   _mobNavOpen(){
@@ -66,6 +68,11 @@ class App{
   _dropDonw1(){
     dropdown1.classList.toggle('dropStyle1');
     arrow1.classList.toggle('arrowStyle1');
+  }
+
+  _dropdown2(){
+    dropdown2.classList.toggle('dropStyle2');
+    arrow2.classList.toggle('arrowStyle2');
   }
 }
 
