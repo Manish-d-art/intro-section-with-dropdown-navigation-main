@@ -14,37 +14,6 @@ const arrow1=document.querySelector('.arrow-1');
 const arrow2=document.querySelector('.arrow-2');
 
 
-//mobile nav open 
-// navOpenBtn.addEventListener('click',function(e){
-//   e.preventDefault();
-//   navbar.style.transform=`translateX(${0}%)`;
-//   mainSec.style.opacity=".8";
-//   Body.style.backgroundColor="hsl(0, 0%, 8%,.54)";
-
-// });
-
-// //mobile nav close
-// closeNavBtn.addEventListener('click',function(e){
-//   e.preventDefault();
-//   navbar.style.transform=`translateX(${107}%)`;
-//   mainSec.style.opacity="1";
-//   Body.style.backgroundColor="white";
-// });
-
-// // dropdown-1 
-// dropdownBtn1.addEventListener('click',function(e){
-//   e.preventDefault();
-//   dropdown1.classList.toggle('dropStyle1');
-//   arrow1.classList.toggle('arrowStyle1');
-// });
-
-// //dropdown-2
-// dropdownBtn2.addEventListener('click',function(e){
-//   e.preventDefault();
-//   dropdown2.classList.toggle('dropStyle2');
-//   arrow2.classList.toggle('arrowStyle2');
-// });
-
 
 class App{
   constructor(){
@@ -67,7 +36,7 @@ class App{
     Body.style.backgroundColor="white";
   }
 
-  _dropDonw1(){
+  _dropDown1(){
     dropdown1.classList.toggle('dropStyle1');
     arrow1.classList.toggle('arrowStyle1');
   }
