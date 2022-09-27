@@ -46,5 +46,21 @@ dropdownBtn2.addEventListener('click',function(e){
 });
 
 
+class App{
+  constructor(){
 
+  }
+
+  _mobNavOpen(){
+    navbar.style.transform=`translateX(${0}%)`;
+    mainSec.style.opacity=".8";
+    Body.style.backgroundColor="hsl(0, 0%, 8%,.54)";
+  }
+
+  _mobNavClose(){
+    navbar.style.transform=`translateX(${107}%)`;
+    mainSec.style.opacity="1";
+    Body.style.backgroundColor="white";
+  }
+}
 
