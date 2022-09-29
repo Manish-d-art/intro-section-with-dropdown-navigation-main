@@ -16,6 +16,10 @@ body {
   }
 }
 
+.hideText {
+  font-size: 0rem;
+}
+
 button {
   all: unset;
 }
