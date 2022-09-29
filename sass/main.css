@@ -9,6 +9,7 @@ body {
   font-family: "Epilogue", sans-serif;
   font-size: 1.125rem;
   background-color: hsl(0deg, 0%, 98%);
+  transition: 0.5s;
 }
 @media (min-width: 62rem) {
   body {
