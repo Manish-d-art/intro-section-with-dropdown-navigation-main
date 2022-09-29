@@ -187,13 +187,13 @@ button{
                         flex-direction: column;
                         text-align: start;
                         background-color: white;
-                        box-shadow: 0 2px 15px rgb(0 0 0 / 10%);    
+                        box-shadow: 0 0.125rem 0.9375rem rgb(0 0 0 / 10%);    
                     }
 
                         li{
                             color: $MediumGray;
-                            font-size: 13px;
-                            width: 61px;
+                            font-size: 0.8125rem;
+                            width: 3.8125rem;
                             text-align: start;
                             &:hover{
                                 cursor: pointer;
@@ -204,9 +204,9 @@ button{
                 .registerBtn{
                     all: unset;
                     padding:.7rem 1rem;
-                    border: 2px solid $MediumGray;
+                    border: 0.125rem solid $MediumGray;
                     width: 75%;
-                    border-radius: 15px;
+                    border-radius: 0.9375rem;
                     text-align: center;
                     color: $MediumGray;
                     font-size: 1rem;
@@ -215,11 +215,11 @@ button{
                         color:$AlmostBlack;
                     }
 
-                    @media (min-width:992px) and (max-width:1300px) {
+                    @media (min-width:62rem) and (max-width:81.25rem) {
                         position: relative;
                         left: 28vw;
                     }
-                    @media (min-width:1301px) {
+                    @media (min-width:81.3125rem) {
                         position: relative;
                         left:33vw !important;
                     }
@@ -231,11 +231,11 @@ button{
             .nav-login{
                 text-align: center;
                 margin-top: 2.5rem;
-                @media (min-width:992px) and (max-width:1300px) {
+                @media (min-width:62rem) and (max-width:81.25rem) {
                     position: relative;
                     left: 28vw;
                 }
-                @media (min-width:1301px) {
+                @media (min-width:81.3125rem) {
                     position: relative;
                     left:33vw !important;
                 }

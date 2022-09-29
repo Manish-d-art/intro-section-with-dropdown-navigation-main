@@ -175,13 +175,13 @@ button {
     flex-direction: column;
     text-align: start;
     background-color: white;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.125rem 0.9375rem rgba(0, 0, 0, 0.1);
   }
 }
 .header .nav-list ul li .dropdown-2 li {
   color: hsl(0deg, 0%, 41%);
-  font-size: 13px;
-  width: 61px;
+  font-size: 0.8125rem;
+  width: 3.8125rem;
   text-align: start;
 }
 .header .nav-list ul li .dropdown-2 li:hover {
@@ -190,9 +190,9 @@ button {
 .header .nav-list ul li .registerBtn {
   all: unset;
   padding: 0.7rem 1rem;
-  border: 2px solid hsl(0deg, 0%, 41%);
+  border: 0.125rem solid hsl(0deg, 0%, 41%);
   width: 75%;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   text-align: center;
   color: hsl(0deg, 0%, 41%);
   font-size: 1rem;
@@ -201,13 +201,13 @@ button {
 .header .nav-list ul li .registerBtn:hover {
   color: hsl(0deg, 0%, 8%);
 }
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (min-width: 62rem) and (max-width: 81.25rem) {
   .header .nav-list ul li .registerBtn {
     position: relative;
     left: 28vw;
   }
 }
-@media (min-width: 1301px) {
+@media (min-width: 81.3125rem) {
   .header .nav-list ul li .registerBtn {
     position: relative;
     left: 33vw !important;
@@ -217,13 +217,13 @@ button {
   text-align: center;
   margin-top: 2.5rem;
 }
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (min-width: 62rem) and (max-width: 81.25rem) {
   .header .nav-list ul .nav-login {
     position: relative;
     left: 28vw;
   }
 }
-@media (min-width: 1301px) {
+@media (min-width: 81.3125rem) {
   .header .nav-list ul .nav-login {
     position: relative;
     left: 33vw !important;
