@@ -349,18 +349,18 @@ button {
 }
 
 .dropStyle1 {
-  height: 139px !important;
+  height: 8.6875rem !important;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .dropStyle1 {
     padding: 0.8rem;
   }
 }
 
 .dropStyle2 {
-  height: 100px !important;
+  height: 6.25rem !important;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .dropStyle2 {
     padding: 0.8rem;
   }
