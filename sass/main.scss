@@ -12,9 +12,9 @@
 
 body{
     font-family: 'Epilogue', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     background-color: $AlmostWhite;
-    @media (min-width:992px) {
+    @media (min-width:62rem) {
         margin-bottom: 1rem;
     }
 }
@@ -35,7 +35,7 @@ button{
         justify-content: baseline;
 
         .menu-icon{
-            @media (min-width:992px) {
+            @media (min-width:62rem) {
                 display: none;                    
             }
         }
@@ -46,20 +46,20 @@ button{
         z-index: 1;
         background-color:  white;
         position: absolute;
-        width: min(60%,500px);
+        width: min(60%,31.25rem);
         height: 100vh;
         top:0;
         right: 0;
         padding: clamp(1rem,5vw,3rem);
         transition: .5s;
 
-        @media (min-width:992px) {
+        @media (min-width:62rem) {
             z-index: 1;
             background-color:$AlmostWhite; 
             position: absolute;
              width: 100% !important; 
             height: 10vh; 
-            top: 10px;
+            top: 0.625rem;
             left: 13% !important;
             padding: 0 !important; 
             display: flex ;
