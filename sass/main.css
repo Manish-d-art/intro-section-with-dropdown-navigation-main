@@ -234,7 +234,7 @@ button {
   position: absolute;
   top: 12%;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main {
     display: flex;
     flex-direction: row-reverse;
@@ -242,7 +242,7 @@ button {
     top: 14% !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main .main__picture {
     flex-basis: 38%;
     display: flex;
@@ -253,7 +253,7 @@ button {
 .main .main__picture .hero-image-mob {
   width: 100vw;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main .main__picture .hero-image-mob {
     display: none;
   }
@@ -261,7 +261,7 @@ button {
 .main .main__picture .hero-image-desktop {
   display: none;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main .main__picture .hero-image-desktop {
     display: block !important;
     width: 80%;
@@ -275,7 +275,7 @@ button {
   padding-right: clamp(0.7rem, 5vw, 3rem);
   padding-top: clamp(2rem, 10vw, 4rem);
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main .main__section {
     align-items: flex-start;
     flex-basis: 42%;
@@ -287,7 +287,7 @@ button {
   margin-bottom: clamp(1rem, 5vw, 2rem);
   text-align: center;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main .main__section .main__heading {
     text-align: start !important;
     margin-bottom: clamp(0.8rem, 5vw, 2rem);
@@ -300,15 +300,15 @@ button {
   text-align: center;
   color: hsl(0deg, 0%, 41%);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.5;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .main .main__section .main__text {
     text-align: start !important;
   }
 }
-@media (min-width: 1300px) {
+@media (min-width: 81.25rem) {
   .main .main__section .main__text {
     padding-right: 5rem;
   }
@@ -319,12 +319,12 @@ button {
   background-color: hsl(0deg, 0%, 8%);
   font-weight: 700;
   padding: 1rem 2rem;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 }
 .main .main__section .section-btn:hover {
   color: hsl(0deg, 0%, 8%);
   background-color: hsl(0deg, 0%, 98%);
-  border: 1px solid hsl(0deg, 0%, 8%);
+  border: 0.0625rem solid hsl(0deg, 0%, 8%);
   font-weight: 700;
 }
 .main .main__section .main__logo-block {
@@ -334,18 +334,18 @@ button {
   align-items: center;
   width: 100%;
 }
-@media (min-width: 600px) and (max-width: 992px) {
+@media (min-width: 37.5rem) and (max-width: 62rem) {
   .main .main__section .main__logo-block {
     justify-content: space-around !important;
   }
 }
 .main .main__section .main__logo-block .main__logo {
-  width: clamp(58px, 18vw, 70px);
-  height: clamp(15px, 4vw, 20px);
+  width: clamp(3.625rem, 18vw, 4.375rem);
+  height: clamp(0.9375rem, 4vw, 1.25rem);
 }
 .main .main__section .main__logo-block .main__logo-2 {
-  width: clamp(54px, 18vw, 65px);
-  height: clamp(24px, 4vw, 25px);
+  width: clamp(3.375rem, 18vw, 4.0625rem);
+  height: clamp(1.5rem, 4vw, 1.5625rem);
 }
 
 .dropStyle1 {
