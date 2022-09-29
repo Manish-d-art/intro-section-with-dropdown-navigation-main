@@ -35,6 +35,9 @@ button {
   padding: clamp(1rem, 5vw, 2rem);
   justify-content: baseline;
 }
+.header .nav__block-1 .cls {
+  font-size: 0rem;
+}
 @media (min-width: 62rem) {
   .header .nav__block-1 .menu-icon {
     display: none;
@@ -324,11 +327,12 @@ button {
   font-weight: 700;
   padding: 1rem 2rem;
   border-radius: 0.9375rem;
+  cursor: pointer;
 }
 .main .main__section .section-btn:hover {
   color: hsl(0deg, 0%, 8%);
   background-color: hsl(0deg, 0%, 98%);
-  border: 0.0625rem solid hsl(0deg, 0%, 8%);
+  border: 0.5px solid hsl(0deg, 0%, 8%);
   font-weight: 700;
 }
 .main .main__section .main__logo-block {

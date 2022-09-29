@@ -38,11 +38,15 @@ button{
         padding:clamp(1rem,5vw,2rem);
         justify-content: baseline;
 
+        .cls{
+            font-size: 0rem;
+        }
         .menu-icon{
             @media (min-width:62rem) {
                 display: none;                    
             }
         }
+        
     }
 
     .nav-list{
@@ -334,11 +338,12 @@ button{
             font-weight: 700;
             padding:1rem 2rem;
             border-radius: 0.9375rem;
+            cursor: pointer;
 
             &:hover{
                 color:$AlmostBlack;
                 background-color:  $AlmostWhite;
-                border: 0.0625rem solid $AlmostBlack;
+                border: .5px solid $AlmostBlack;
                 font-weight: 700;
             }
         }
