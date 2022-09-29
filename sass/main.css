@@ -321,13 +321,13 @@ button {
   }
 }
 .main .main__section .section-btn {
-  text-decoration: none;
   color: hsl(0deg, 0%, 98%);
   background-color: hsl(0deg, 0%, 8%);
   font-weight: 700;
   padding: 1rem 2rem;
   border-radius: 0.9375rem;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
 .main .main__section .section-btn:hover {
   color: hsl(0deg, 0%, 8%);

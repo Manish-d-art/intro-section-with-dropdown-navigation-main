@@ -280,6 +280,7 @@ button{
                 display: none;
             }
          }
+
          .hero-image-desktop{
             display: none;
             @media (min-width:62rem) {
@@ -332,13 +333,13 @@ button{
             
         }
         .section-btn{
-            text-decoration: none;
             color:$AlmostWhite ;
             background-color:  $AlmostBlack;
             font-weight: 700;
             padding:1rem 2rem;
             border-radius: 0.9375rem;
             cursor: pointer;
+            transition: all .4s ease;
 
             &:hover{
                 color:$AlmostBlack;
