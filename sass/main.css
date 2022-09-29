@@ -143,12 +143,12 @@ button {
 }
 .header .nav-list ul li .dropdown-1 li {
   color: hsl(0deg, 0%, 41%);
-  font-size: 13px;
-  width: 96px;
+  font-size: 0.8125rem;
+  width: 6rem;
   display: flex;
   justify-content: start;
   align-items: center;
-  border-bottom: 2px solid hsl(0deg, 0%, 98%);
+  border-bottom: 0.125rem solid hsl(0deg, 0%, 98%);
 }
 .header .nav-list ul li .dropdown-1 li img {
   margin-right: 0.5rem;
@@ -158,19 +158,19 @@ button {
 }
 .header .nav-list ul li .dropdown-2 {
   position: relative;
-  left: 30px;
-  width: 100px;
+  left: 1.875rem;
+  width: 6.25rem;
   overflow: hidden;
   height: 0;
   transition: 0.5s;
-  border-radius: 7px;
+  border-radius: 0.4375rem;
   overflow: hidden;
 }
-@media (min-width: 992px) {
+@media (min-width: 62rem) {
   .header .nav-list ul li .dropdown-2 {
     position: absolute !important;
-    left: 0px;
-    top: 43px;
+    left: 0rem;
+    top: 2.6875rem;
     display: flex;
     flex-direction: column;
     text-align: start;
